@@ -1,0 +1,256 @@
+/*/////////// RESET ///////////*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #8C8C88;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #202426;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+
+/*/////////// HEADER ///////////*/
+
+header {
+    background-color: #202426;
+    padding: 20px 0;
+    color: #8C8C88;
+    border-bottom: 4px solid #6C733D;
+}
+
+.menu-logo {
+    cursor: pointer;
+}
+
+.menu-nav a {
+    font-size: 1.125em;
+}
+
+
+/*/////////// MAIN ///////////*/
+
+.capa {
+    background: url('../imagens/photoz.jpeg') no-repeat center;
+    background-size: cover;
+    color: white;
+    border-bottom: 4px solid #6C733D;
+    box-shadow: 0 0 0 5px #9DA65D;
+}
+
+.opaco {
+    background-color: #20242699;
+    width: 100%;
+}
+
+
+/*/////////// SOBRE ///////////*/
+
+.sobre {
+    width: 100%;
+}
+
+.intro {
+    width: 460px;
+}
+
+.intro img {
+    max-width: 100%;
+}
+
+.intro h3 {
+    background-color: #202426;
+    width: 60%;
+    font-size: 2.25em;
+    font-style: italic;
+    font-weight: normal;
+    color: #8C8C88;
+    line-height: 1em;
+}
+
+.sobre>p {
+    line-height: 1.4em;
+    font-size: 1.125em;
+    font-style: italic;
+    max-width: 460px;
+}
+
+
+/*/////////// PRODUTOS ///////////*/
+
+.produtos {
+    background-color: #6C733D;
+    border-bottom: 4px solid #9DA65D;
+    border-top: 4px solid #9DA65D;
+}
+
+.item {
+    width: 290px;
+}
+
+.item h2 {
+    font-size: 2.125em;
+}
+
+.item p {
+    line-height: 1.4em;
+    font-size: 0.875em;
+}
+
+#item1 h2::before {
+    content: "";
+    display: block;
+    margin: 30px auto;
+    width: 100px;
+    height: 100px;
+    background: #202426;
+    border-radius: 50%;
+    border: 4px solid #6C733D;
+    box-shadow: 0 0 0 5px #8C8C88;
+    background: url('imagens/photow.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#item2 h2::before {
+    content: "";
+    display: block;
+    margin: 30px auto;
+    width: 100px;
+    height: 100px;
+    background: #202426;
+    border-radius: 50%;
+    border: 4px solid #6C733D;
+    box-shadow: 0 0 0 5px #202426;
+    background: url('imagens/photox.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#item3 h2::before {
+    content: "";
+    display: block;
+    margin: 30px auto;
+    width: 100px;
+    height: 100px;
+    background: #202426;
+    border-radius: 50%;
+    border: 4px solid #6C733D;
+    box-shadow: 0 0 0 5px #9DA65D;
+    background: url('imagens/photoy.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.item-btn {
+    width: 180px;
+    border: 2px solid #202426;
+    font-size: 1.125em;
+    font-weight: bold;
+    color: #202426;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+/*/////////// LOCAIS ///////////*/
+
+.locais {
+    max-width: 960px;
+}
+
+.local img {
+    width: 350px;
+    border: 4px solid #8C8C88;
+}
+
+.local>div {
+    width: 350px;
+}
+
+.local h2 {
+    font-size: 2.25em;
+}
+
+.local p {
+    width: 320px;
+    font-size: 1.125em;
+    line-height: 1.4em;
+}
+
+.local a {
+    border: 2px solid;
+    font-size: 1.125em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #6C733D;
+}
+
+
+/*/////////// ASSINE ///////////*/
+
+.assine {
+    background: #9DA65D;
+}
+
+.assine>div {
+    width: 460px;
+}
+
+.assine form {
+    width: 460px;
+}
+
+.assine h2 {
+    font-size: 2.25em;
+}
+
+.assine p {
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.assine form label {
+    display: none;
+}
+
+.assine form input {
+    box-sizing: border-box;
+    background: none;
+    width: 320px;
+    border: 3px solid #202426;
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #202426;
+}
+
+.assine button {
+    background: #202426;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    width: 140px;
+    color: #8C8C88;
+    cursor: pointer;
+}
+
+
+/*/////////// FOOTER ///////////*/
+
+.footer {
+    background: #6C733D;
+}
